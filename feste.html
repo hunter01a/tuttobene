@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Feste — Tuttobene Campi Bisenzio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+<div class="cursor-dot" id="cDot"></div>
+<div class="cursor-ring" id="cRing"></div>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <g id="tb-logo">
+      <text x="0" y="58" font-family="'Josefin Sans',sans-serif" font-weight="200" font-size="64" letter-spacing="10" fill="currentColor">TUTT</text>
+      <circle cx="247" cy="36" r="26" fill="none" stroke="currentColor" stroke-width="5.5"/>
+      <path d="M 230 72 Q 247 84 264 72" fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+      <text x="286" y="58" font-family="'Josefin Sans',sans-serif" font-weight="200" font-size="64" letter-spacing="10" fill="currentColor">BENE</text>
+    </g>
+  </defs>
+</svg>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html" aria-label="Tuttobene" style="color:var(--rosso)">
+      <svg viewBox="0 0 480 90"><use href="#tb-logo"/></svg>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#storia">Storia</a>
+      <a href="pasta.html">Pasta Fresca</a>
+      <a href="feste.html">Le Feste</a>
+      <a href="premi.html">Premi</a>
+      <a href="index.html#prenota" class="nav-cta">Prenota</a>
+      <button class="burger" id="burger" aria-label="Apri menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mm-close" id="mmClose" aria-label="Chiudi menu">×</button>
+  <a href="index.html">Home</a>
+  <a href="index.html#storia">Storia</a>
+  <a href="pasta.html">Pasta Fresca</a>
+  <a href="feste.html">Le Feste</a>
+  <a href="premi.html">Premi & Menzioni</a>
+  <a href="index.html#catering">Catering</a>
+  <a href="index.html#prenota" class="mm-cta">Prenota</a>
+</div>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <span>Le Feste</span></div>
+    <span class="label">Tutto l'anno</span>
+    <h1>Le Feste al Tuttobene</h1>
+    <div class="rule"></div>
+  </div>
+</section>
+
+<section id="feste" style="background:var(--bianco)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="label">Tutto l'anno</span>
+      <h2>Le Feste al Tuttobene</h2>
+      <div class="rule"></div>
+    </div>
+    <p class="reveal" style="max-width:740px;color:var(--grigio);font-size:1.12rem;margin-bottom:44px">Ogni festa ha il suo rito: il panettone e le vetrine illuminate a Natale, i cenci e gli schiacciati di Carnevale, le colombe di Pasqua, i dolci di Sant'Antonio e San Valentino. Il calendario del Tuttobene, raccontato dalle vetrine e dai reel.</p>
+    <div class="cat-grid stagger" style="margin-bottom:60px">
+      <figure class="cat-item big">
+        <img src="img/natale-vetrina.jpg" alt="La vetrina di Natale con renne rosse, alberi luminosi e panettoni" loading="lazy">
+        <figcaption><span>01</span> La vetrina di Natale: renne, alberi di luce e i panettoni in bella vista</figcaption>
+      </figure>
+      <figure class="cat-item">
+        <img src="img/natale-gnomi.jpg" alt="Gli gnomi natalizi sopra la vetrina dei vini" loading="lazy">
+        <figcaption><span>02</span> Gli gnomi di Natale a guardia dell'enoteca</figcaption>
+      </figure>
+      <figure class="cat-item">
+        <img src="img/natale-luminarie.jpg" alt="Le luminarie natalizie in vetrina con i calendari dell'avvento" loading="lazy">
+        <figcaption><span>03</span> Luminarie in vetrina e calendari dell'avvento per i piu piccoli</figcaption>
+      </figure>
+    </div>
+    <div class="ig-grid stagger">
+      <div class="ig-card"><span class="festa-tag">Natale</span>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DQ4_UC6DZwG/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;border-radius:3px;margin:0;max-width:540px;min-width:280px;padding:0;width:100%;">
+          <div style="padding:16px;"><a href="https://www.instagram.com/reel/DQ4_UC6DZwG/" target="_blank" rel="noopener" style="color:#7C746B;font-family:Arial,sans-serif;font-size:14px;text-decoration:none;">Guarda il reel di Natale — @tuttobenebar</a></div>
+        </blockquote>
+      </div>
+      <div class="ig-card"><span class="festa-tag">Natale</span>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DRfqYiZjXLV/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;border-radius:3px;margin:0;max-width:540px;min-width:280px;padding:0;width:100%;">
+          <div style="padding:16px;"><a href="https://www.instagram.com/reel/DRfqYiZjXLV/" target="_blank" rel="noopener" style="color:#7C746B;font-family:Arial,sans-serif;font-size:14px;text-decoration:none;">Guarda il reel di Natale — @tuttobenebar</a></div>
+        </blockquote>
+      </div>
+      <div class="ig-card"><span class="festa-tag">Sant'Antonio</span>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DTfS-sWDEoy/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;border-radius:3px;margin:0;max-width:540px;min-width:280px;padding:0;width:100%;">
+          <div style="padding:16px;"><a href="https://www.instagram.com/reel/DTfS-sWDEoy/" target="_blank" rel="noopener" style="color:#7C746B;font-family:Arial,sans-serif;font-size:14px;text-decoration:none;">Guarda il reel di Sant'Antonio — @tuttobenebar</a></div>
+        </blockquote>
+      </div>
+      <div class="ig-card"><span class="festa-tag">Carnevale</span>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DT_H4YSjZL3/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;border-radius:3px;margin:0;max-width:540px;min-width:280px;padding:0;width:100%;">
+          <div style="padding:16px;"><a href="https://www.instagram.com/reel/DT_H4YSjZL3/" target="_blank" rel="noopener" style="color:#7C746B;font-family:Arial,sans-serif;font-size:14px;text-decoration:none;">Guarda il reel di Carnevale — @tuttobenebar</a></div>
+        </blockquote>
+      </div>
+      <div class="ig-card"><span class="festa-tag">Carnevale</span>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DUZAbqnDe--/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;border-radius:3px;margin:0;max-width:540px;min-width:280px;padding:0;width:100%;">
+          <div style="padding:16px;"><a href="https://www.instagram.com/reel/DUZAbqnDe--/" target="_blank" rel="noopener" style="color:#7C746B;font-family:Arial,sans-serif;font-size:14px;text-decoration:none;">Guarda il reel di Carnevale — @tuttobenebar</a></div>
+        </blockquote>
+      </div>
+      <div class="ig-card"><span class="festa-tag">San Valentino</span>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DUz2LylDM15/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;border-radius:3px;margin:0;max-width:540px;min-width:280px;padding:0;width:100%;">
+          <div style="padding:16px;"><a href="https://www.instagram.com/reel/DUz2LylDM15/" target="_blank" rel="noopener" style="color:#7C746B;font-family:Arial,sans-serif;font-size:14px;text-decoration:none;">Guarda il reel di San Valentino — @tuttobenebar</a></div>
+        </blockquote>
+      </div>
+      <div class="ig-card"><span class="festa-tag">Pasqua</span>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DWcHipCDHOv/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;border-radius:3px;margin:0;max-width:540px;min-width:280px;padding:0;width:100%;">
+          <div style="padding:16px;"><a href="https://www.instagram.com/reel/DWcHipCDHOv/" target="_blank" rel="noopener" style="color:#7C746B;font-family:Arial,sans-serif;font-size:14px;text-decoration:none;">Guarda il reel di Pasqua — @tuttobenebar</a></div>
+        </blockquote>
+      </div>
+      <div class="ig-card"><span class="festa-tag">Pasqua</span>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DWnpxYCDT5w/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;border-radius:3px;margin:0;max-width:540px;min-width:280px;padding:0;width:100%;">
+          <div style="padding:16px;"><a href="https://www.instagram.com/reel/DWnpxYCDT5w/" target="_blank" rel="noopener" style="color:#7C746B;font-family:Arial,sans-serif;font-size:14px;text-decoration:none;">Guarda il reel di Pasqua — @tuttobenebar</a></div>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+<script async src="https://www.instagram.com/embed.js"></script>
+
+<section style="background:linear-gradient(160deg,var(--rosso) 0%, #9c0c23 100%);padding:80px 0;text-align:center">
+  <div class="wrap">
+    <p style="color:#fff;font-size:1.3rem;font-style:italic;margin-bottom:30px">Vuoi organizzare qualcosa con noi?</p>
+    <a class="cat-cta" style="background:#fff;color:var(--rosso)" href="index.html#prenota">Prenota · 055 896 9529</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo" style="color:#F6F1E8">
+          <svg viewBox="0 0 480 90"><use href="#tb-logo"/></svg>
+        </div>
+        <p style="font-style:italic">Quando il gusto diventa poesia…<br>il piacere raddoppia.</p>
+      </div>
+      <div>
+        <h4>Dove siamo</h4>
+        <p>Via San Quirico, 233/A<br>50013 Campi Bisenzio (FI)</p>
+        <p><a href="tel:+390558969529">055 896 9529</a></p>
+      </div>
+      <div>
+        <h4>Orari</h4>
+        <p>Lun – Ven: 6.30 – 20.00<br>Sabato: 6.30 – 14.30<br>Domenica: chiuso</p>
+      </div>
+      <div>
+        <h4>Seguici</h4>
+        <p><a href="https://www.instagram.com/tuttobenebar/" target="_blank" rel="noopener">Instagram · @tuttobenebar</a><br>
+        <a href="https://www.facebook.com/tuttobenebar/" target="_blank" rel="noopener">Facebook · Tuttobene</a><br>
+        <a href="https://www.tuttobene-bar.it" target="_blank" rel="noopener">tuttobene-bar.it</a></p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Tuttobene — Campi Bisenzio</span>
+      <span>Caffetteria · Pasticceria · Pasta Fresca · Enoteca · Catering</span>
+      <span>Sito realizzato da <a href="https://luxlab.it" target="_blank" rel="noopener" style="color:var(--rosso-vivo);text-decoration:none;letter-spacing:.2em">LUXLAB</a></span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
